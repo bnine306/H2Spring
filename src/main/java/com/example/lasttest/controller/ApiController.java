@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:3000")  // React 앱의 주소를 설정
+@CrossOrigin(origins = "http://115.68.179.98:3000")  // React 앱의 주소를 설정
 public class ApiController {
 
     @Autowired
